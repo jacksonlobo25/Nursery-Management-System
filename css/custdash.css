@@ -1,0 +1,109 @@
+* {box-sizing: border-box;}
+    
+body,html { 
+  margin: 0;
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  overflow: hidden;
+  background-color:rgb(134, 230, 190);
+  padding: 10px 10px;
+}
+
+.logo{
+  font-size: 25px;
+  font-weight: bold;
+  float: left;
+  text-align: center;
+  padding-left: 440px;
+}
+.active {
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 55px;
+  border-radius: 4px;
+}    
+.active:hover {
+  background-color: black;
+  color: black;
+}
+
+ .active.active {
+  background-color: blue;
+  color: white;
+}
+
+.header-right {
+  float: right;
+}
+
+@media screen and (max-width: 500px) {
+  .active {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .header-right {
+    float: none;
+  }
+}
+/*-------------------------FULL PAGES------------------------------------*/
+
+.tablink {
+  text-align: center;
+  font-family:Helvetica;
+  background-color: #555;
+  color: aqua;
+  float: left;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 20px;
+  width: 33.333%;
+}
+
+.tablink:hover {
+  text-decoration: none;
+  background-color:#2596be;
+  color:#000;
+}
+
+.tabcontent {
+  color: white;
+  padding: 100px 20px;
+  height: 500px;
+}
+
+
+
+/*---------------------------DASHBOARD------------------------*/
+
+body {
+    background: linear-gradient(to right, #4ca2cd, #67B26F); 
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    color: #000;
+}
+
+.student-profile .card {
+    border-radius: 10px;
+}
+
+.student-profile .card .card-header .profile_img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin: 10px auto;
+    border: 10px solid #ccc;
+    border-radius: 50%;
+}
+
+
+
+
+
