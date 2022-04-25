@@ -14,8 +14,8 @@
             $query = "INSERT INTO customers(C_name,Address,Phone,gender,gmail,password,password1,username) 
             VALUES ('$firstname','$address','$phone','$gender','$email','$password','$confirmpassword','$username')";
             mysqli_query($conn,$query);
-            echo "<script type='text/javascript'>alert('Account successfully created');
-            window.location='login.php';</script>";
+            <script type='text/javascript'>alert('Account successfully created');
+            window.location='login.php';</script>;
             die;
         }
         else{
